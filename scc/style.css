@@ -652,6 +652,7 @@ img {
 }
 .cards-thumb {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio-link:hover .card-overlay,
@@ -678,7 +679,9 @@ img {
 }
 
 .portfolio-link {
+  opacity: 1;
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card {
